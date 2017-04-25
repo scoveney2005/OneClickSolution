@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="336dp"
+        android:layout_height="150dp"
+        android:ems="10"
+        android:layout_margin="20dp"
+        android:inputType="textMultiLine"
+        android:layout_weight="0.59" />
+
+    <Button
+        android:id="@+id/safebutton"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="100dp"
+        android:text="SAFE" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="List of Users that are declared safe" />
+
+    <ListView
+        android:id="@+id/listings"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="20dp">
+
+    </ListView>
+
+
+</LinearLayout>

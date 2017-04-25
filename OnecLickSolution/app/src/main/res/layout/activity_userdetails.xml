@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/design"
+    >
+
+    <EditText
+        android:id="@+id/editText5"
+        android:textColor="@color/textwhite"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Enter the Following Details and hit Enter" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        android:text="Email" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:selectAllOnFocus="true"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/phnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:selectAllOnFocus="true"
+        android:inputType="textPersonName"
+        android:text="Phone num" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="212dp"
+        android:layout_height="46dp"
+        android:text="Enter" />
+
+</LinearLayout>

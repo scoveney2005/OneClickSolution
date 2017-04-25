@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "179350291145",
+    "firebase_url": "https://one-click-solution.firebaseio.com",
+    "project_id": "one-click-solution",
+    "storage_bucket": "one-click-solution.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179350291145:android:9b3339175365ca11",
+        "android_client_info": {
+          "package_name": "com.example.scove.oneclicksolution"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179350291145-e3ikuv5caac50h75tcfe5kkaekla2lff.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "179350291145-dkvumt31v6agd7trgfshd7bdj4debtpj.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "179350291145-h4re2li98roubdkkj0gig330qpqd0g5q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.scove.oneclicksolution",
+            "certificate_hash": "ebd9ccfd1005105a835e3b3177f70ad5e6a4631f"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoQs0EvqTU5P2MvKPLjT11IaVRg0n_TSg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179350291145-e3ikuv5caac50h75tcfe5kkaekla2lff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
